@@ -1,4 +1,3 @@
-# NavigationCacheController
+**NavigationCacheController**
 
-A description of this package.
-# NavigationCacheController
+Automatically caching all viewcontrollers by subclssing UINavigationController.
