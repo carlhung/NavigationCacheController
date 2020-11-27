@@ -5,7 +5,7 @@
 //  Created by Carl Hung on 17/11/2020.
 //
 
-protocol TypeName: AnyObject {
+public protocol TypeName: AnyObject {
     static var typeName: String { get } // use class instead of static. otherwise, it won't use vtable to dynamically get the proper value.
 }
 

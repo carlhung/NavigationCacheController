@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 extension UIViewController: TypeName {
-    class var typeName: String {
+    public class var typeName: String {
         String(describing: Self.self)
     }
 }
