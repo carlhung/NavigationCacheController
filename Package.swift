@@ -5,6 +5,11 @@ import PackageDescription
 
 let package = Package(
     name: "NavigationCacheController",
+    platforms: [
+        .iOS(SupportedPlatform.IOSVersion.v9),
+        .macOS(SupportedPlatform.MacOSVersion.v10_13),
+        .tvOS(SupportedPlatform.TVOSVersion.v9),
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
